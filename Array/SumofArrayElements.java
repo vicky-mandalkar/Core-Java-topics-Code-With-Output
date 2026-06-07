@@ -1,3 +1,11 @@
+/*
+Array Case 2: Sum of Array Elements
+Find the sum of all elements in an array.
+Example Input:
+Array = [5, 8, 12, 6]
+Expected Output:
+Sum = 31
+*/
 import java.util.Scanner;
 class SumofArrayElements{
 
