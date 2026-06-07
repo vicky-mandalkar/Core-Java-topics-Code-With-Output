@@ -1,4 +1,12 @@
+/*
+Array Case 3: Average of Array Elements
+Find the average value of all elements in an array.
+Example Input:
+ Array = [2, 4, 6, 8, 10]
 
+Expected Output:
+Average = 6.0
+*/
 import java.util.Scanner;
 
 class AverageofArrayElements{
