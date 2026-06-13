@@ -73,3 +73,33 @@ class TransposeMatrix{
 
 	}
 }
+/*
+
+
+Enter Row
+2
+Enter Col
+3
+================ENTER INPUT ARRAY================
+Enter Index i: 0 j : 0
+1
+Enter Index i: 0 j : 1
+2
+Enter Index i: 0 j : 2
+3
+
+Enter Index i: 1 j : 0
+4
+Enter Index i: 1 j : 1
+5
+Enter Index i: 1 j : 2
+6
+
+================2D ARRAY================
+1       2       3
+4       5       6
+================Print Aftar Transpose===============
+1       4
+2       5
+3       6
+	*/
