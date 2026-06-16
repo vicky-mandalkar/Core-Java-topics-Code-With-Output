@@ -1,14 +1,14 @@
 public class Student{
 	private int id;
 	private String name;
-	private String student[]=new String[5];
-	private int marks[]=new int[5];
+	private String Student[]=new String[5];
+	private int Marks[]=new int[5];
 
-	public Student(int id,String name,String [] student,int []marks){
+	public Student(int id,String name,String [] Student,int []Marks){
 		this.id=id;
 		this.name=name;
-		this.student=student;
-		this.marks=marks;
+		this.Student=Student;
+		this.Marks=Marks;
 	}
 	
 	public int getId(){
@@ -18,22 +18,41 @@ public class Student{
 		return name;
 	}
 	public String [] getstudent(){
-		return student;
+		return Student;
 	}
 	public int [] getMarks(){
-		return marks;
+		return Marks;
 	}
 
 	public void setId(int id){
 		this.id=id;
 	}
-	public void setNamw(String name){
+	public void setName(String name){
 		this.name=name;
 	}
-	public void setId(String [] student){
-		this.student=student;
+	public void setStudent(String [] Student){
+		this.Student=Student;
 	}
-	public void setId(int [] marks){
-		this.marks=marks;
+	public void setMarks(int [] Marks){
+		this.Marks=Marks;
+	}
+
+	public void PrintStudentInfo(){
+		System.out.println("--------------Student Details--------------");
+		System.out.printf("%5s","ID");
+		System.out.printf("%10s","NAME");
+		System.out.printf("%10s","SUBJECT");
+		System.out.printf("%10s\n","MARKS");
+		System.out.println("------------------------------------------");
+
+		System.out.printf("%5d",this.id);
+		System.out.printf("%10s",this.name);
+		System.out.println();
+		for(int i=0;i<Student.length;i++){
+			System.out.printf("%20s : %5d \n",Student[i],Marks[i]);
+
+		}
+		System.out.println("=========================================");	
+
 	}
 }
