@@ -1,0 +1,48 @@
+create database UserDB;
+use UserDB;
+create table users(
+    userid int primary key auto_increment,
+    username varchar(50)  not null,
+    useremail varchar(50) unique,
+    age int check(age>=18),
+    userphone int 
+);
+
+create table dept(
+ deptid int primary key auto_increment,
+ deptname varchar(50) not null
+);
+
+alter table users add useraddress varchar(100);
+alter table users add userStatus tinyint;
+
+alter table users modify useremail varchar(100) not null ;
+
+alter table users change useraddress  address varchar(50);
+
+select * from users;
+
+
+
+where clause Query: 
+use universitymanagement;
+select * from student;
+
+select * from student where address="jalna"; 
+select * from student where  address!= "jalna"; 
+select * from student where class_XII > "60"; 
+select * from student where class_XII < 43; 
+select * from student where class_XII between 80 and 100 ; 
+select * from student where  address in("jalna","pune"); 
+select * from student where  address not in("jalna","pune"); 
+select * from student where address  like 'ja%'; 
+select * from student where address not like 'ja%'; 
+
+custom sorting:
+select * from student3 order by
+case 
+when  college="mit"  then 1
+when college="pict" then 2
+when college="jnec" then 3
+else 4
+end;

@@ -10,12 +10,17 @@ public class Salary{
 
 		System.out.println("Alll info		: "+e1);
 		e1.setSalary(20000);
-		System.out.println("After Update Salary : "+e1.getSALARY());
-		
-
-       
-				
-
+		System.out.println("After Update Salary : "+e1.getSALARY());				
 	}
 
 }
+/*
+All DETSILS
+ID                      : 12
+First Name              : vicku
+Last Name               : mandalkar
+Salary        		: 1200
+Annual Sallry   	: 14400
+Alll info               : Employee [id = 12 , name = vicku , LastName = mandalkar , salary = 1200 ]
+After Update Salary 	: 20000
+*/

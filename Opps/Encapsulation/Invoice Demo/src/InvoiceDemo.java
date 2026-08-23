@@ -2,19 +2,13 @@ public class InvoiceDemo {
 
     public static void main(String[] args) {
 
-        // Creating object
 
-        InvoiceItem i1 =
-            new InvoiceItem(
-                "P101",
-                "Laptop",
-                2,
-                45000
-            );
+        InvoiceItem i1 =new InvoiceItem("P101","Laptop", 2, 45000 );
 
         // Display details
 
         System.out.println("Invoice Details");
+
         System.out.println("-----------------------");
 
         System.out.println("ID : " + i1.getID());
@@ -28,13 +22,11 @@ public class InvoiceDemo {
 
         System.out.println("Total Amount : " +i1.getTotal());
 
-        // Printing object
-
         System.out.println("All Information : " + i1);
 
         System.out.println();
 
-        // Updating values
+       
 
         i1.setQty(3);
         i1.setUnitPrice(50000);

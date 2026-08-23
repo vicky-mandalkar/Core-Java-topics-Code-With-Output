@@ -36,9 +36,6 @@ class program1{
 		System.out.println("=================================");		
 
 		display(arr);
-
-		
-
 		
 	}
 }

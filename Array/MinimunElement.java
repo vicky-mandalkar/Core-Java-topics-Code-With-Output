@@ -51,21 +51,21 @@ class MinimunElement{
 Enter  Size of an Array :
 5
 Enter Element :
-10
+12
 Enter Element :
-20
+4
+Enter Element :
+35
+Enter Element :
+2
 Enter Element :
 8
-Enter Element :
-45
-Enter Element :
-21
-0 : 10
-1 : 20
-2 : 8
-3 : 45
-4 : 21
+0 : 12
+1 : 4
+2 : 35
+3 : 2
+4 : 8
 =================================
-Maximum Element is : 45
+Manimum Element is : 2
 And index is : 3
 */
